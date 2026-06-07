@@ -4,10 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>URL Shortener</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    
-    </body>
+    <div class="container">
+
+        <h1>URL Shortener</h1>
+
+        <p class="tagline">
+            Transform long URLs into clean, shareable links.
+        </p>
+
+        <form>
+
+            <input
+                type="url"
+                placeholder="Paste your long URL here"
+                required
+            >
+
+            <button type="submit">
+                Shorten URL
+            </button>
+
+        </form>
+
+        <div class="result">
+
+            <h3>Shortened URL</h3>
+
+            <div class="output">
+                Your shortened link will appear here
+            </div>
+
+            <button class="copy-btn">
+                Copy
+            </button>
+
+        </div>
+
+    </div>
+
+</body>
 </html>
